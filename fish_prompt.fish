@@ -147,10 +147,10 @@ end
 function fish_prompt
   set -g __agnoster_last_status $status
 
-  agnoster::status
   agnoster::context
   agnoster::dir
   agnoster::git
+  agnoster::status
   agnoster::finish
 
   set_color normal

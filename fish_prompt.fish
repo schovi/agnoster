@@ -64,7 +64,7 @@ function agnoster::status
   end
 
   if set -q icons
-    agnoster::segment black red "$icons "
+    agnoster::segment black red "$icons"
   end
 end
 
